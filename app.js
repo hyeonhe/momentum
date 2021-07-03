@@ -1,13 +1,18 @@
-const h1 = document.querySelector(".hello h1");
+// // const loginForm = document.getElementById("login-form");
+// const loginInput = document.querySelector("#login-form input");
+// const loginButton = document.querySelector("#login-form button");
 
-function handelTitleClick(){
-    h1.classList.toggle("clicked");
-    // const clickedClass = "clicked";
-    // if(h1.classList.contains(clickedClass)){
-    //     h1.classList.remove(clickedClass);
-    // } else {
-    //     h1.classList.add(clickedClass);
-    // }
+// function onLoginBtnClick() {
+//     console.log("clicksdfsad");
+// }
+
+// loginButton.addEventListener("click", onLoginBtnClick);
+
+const loginInput = document.querySelector("#login-form input");
+const loginButton = document.querySelector("#login-form button");
+
+function onLoginBtnClick() {
+    console.log(loginInput.value);
 }
 
-h1.addEventListener("click", handelTitleClick);
+loginButton.addEventListener("click", onLoginBtnClick);
