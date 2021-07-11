@@ -1,3 +1,71 @@
+html {
+  /* margin: 0; */
+  display: flex;
+}
+
 .hidden {
   display: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  font-size: 70px;
+  margin-top: 150px;
+  margin-bottom: 0;
+
+  /* align-items: center; */
+}
+
+#clock {
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+/* input {
+  border-bottom: 1px white;
+  border: 0;
+  width: 200px;
+  background: none;
+  color: white;
+} */
+
+#name {
+  /* font-size: 100px; */
+  background: none;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px white;
+}
+
+#name::placeholder {
+  color: white;
+}
+
+#quote {
+  color: white;
+  /* margin-top: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#weather {
+  color: white;
 }
