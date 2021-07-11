@@ -26,9 +26,9 @@ body {
 
 #right {
   width: 50%;
-  margin-top: 10%;
+  margin-top: 150px;
   padding-left: 10%;
-  padding-right: 50px;
+  padding-right: 10%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
